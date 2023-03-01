@@ -2,8 +2,9 @@
 from tkinter import *
 raiz=Tk()
 raiz.title("Ferreteria el manco")
+raiz.resizable(0,0)
 miFrame=Frame(raiz, width="600", height="400")
-miFrame.config(bg="PaleTurquoise1")
+miFrame.config(bg="snow2")
 miFrame.pack()
 
 cuadroTexto=Label(miFrame, text="Ingrese sus datos").grid(row=0, column=2, padx=10, pady=10)
