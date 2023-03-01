@@ -1,6 +1,6 @@
 #Interfaz Gráfica con Tkinter para cumplir con las exigencias del usuario
 from tkinter import *
-raiz='hola'
+raiz=Tk()
 miFrame=Frame(raiz, width="600", height="400")
 miFrame.pack()
 #------------------------------------
@@ -34,4 +34,8 @@ DireccLabel.grid(row=2, column=0, padx=10, pady=10)
 
 TelefLabel=Label(miFrame, text="Telefono:")
 TelefLabel.grid(row=2, column=2, padx=10, pady=10)
+
+BotonEnvio=Button(raiz, text="total")
+BotonEnvio.pack()
+
 raiz.mainloop()
