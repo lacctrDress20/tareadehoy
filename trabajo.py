@@ -16,7 +16,17 @@ nombreLabel=Label(miFrame, text="Nombre:").grid(row=2, column=0, padx=10, pady=1
 ApellidoLabel=Label(miFrame, text="Apellido:").grid(row=2, column=2, padx=10, pady=10)
 DireccLabel=Label(miFrame, text="Dirección:").grid(row=3, column=0, padx=10, pady=10)
 TelefLabel=Label(miFrame, text="Telefono:").grid(row=4, column=0, padx=10, pady=10)
-BotonEnvio=Button(raiz, text="total").pack()
+CodigProd=Label(miFrame, text="Cod_Prod").grid(row=5, column=0, padx=10, pady=10)
+Descripcion=Label(miFrame, text="Descripción").grid(row=5, column=1, padx=10, pady=10)
+Unidad=Label(miFrame, text="Unidad").grid(row=5, column=2, padx=10, pady=10)
+Cantidad=Label(miFrame, text="Cantidad").grid(row=5, column=3, padx=10, pady=10)
+Precio=Label(miFrame, text="Precio").grid(row=5, column=4, padx=10, pady=10)
+Subtotal=Label(miFrame, text="Subtotal").grid(row=5, column=5, padx=10, pady=10)
 
+
+
+
+BotonEnvio=Button(raiz, text="total").pack()
+BotonEnvio.grid(row=6, column=7, padx=10, pady=10)
 
 raiz.mainloop()
